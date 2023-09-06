@@ -1,0 +1,62 @@
+.testimony{
+    @media screen and (max-width:1172px) {
+        flex-direction: column;
+        margin-bottom: 99px;
+        margin-top:39px;
+    }
+
+    
+    max-width: 1110px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+
+    .testimony-card{
+        @media screen and (max-width:1172px) {
+            max-width: 100%;
+        }
+        color: $White1;
+        max-width: 350px;
+        max-height: 234px;
+        background-color: $veryDarkMagenta;
+        border-radius: 8px;
+        padding: 40px 30px;
+       
+
+        .header-content{
+
+            display: flex;
+            align-items: center;
+            margin-bottom: 31px;
+            img{
+                width: 40px;
+                height: 40px;
+                border-radius: 20px;
+            }
+    
+            p{
+                font-size: 17px;
+                display: inline-block;
+                margin-left: 23px;
+                span{
+                    color: $SofPink;
+                }
+            }
+        }
+
+        p{
+            font-size: 17px;
+            line-height: 22px;
+            letter-spacing: -0.3px;
+        }
+        
+    }
+
+    .card-2{
+        margin-top: 20px;
+    }
+    .card-3{
+        margin-top: 40px;
+    }
+}
